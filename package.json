@@ -1,0 +1,29 @@
+{
+  "name": "graphql-apollo",
+  "version": "1.0.0",
+  "description": "https://openwebinars.net/academia/aprende/graphql-api-apollo",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "env-cmd nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricgonmen/graphql-apollo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricgonmen/graphql-apollo/issues"
+  },
+  "homepage": "https://github.com/ricgonmen/graphql-apollo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "env-cmd": "^10.1.0",
+    "graphql": "^15.7.2"
+  }
+}
